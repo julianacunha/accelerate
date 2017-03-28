@@ -21,6 +21,13 @@
 .button {
       background: none repeat scroll 0 0 #45ac9d;
   }
+/*  #masthead nav ul li {
+    float:left;
+    margin:0 10px;
+  }
+  don't know what this is for
+  */
+
 .blog-post {
     	width: 50%;
     }
@@ -42,3 +49,27 @@
     	color: #45ac9d;
     	text-transform: uppercase;
     }
+ul {
+  display:flex;
+  list-style-type: none;
+}
+/* Case Studies*/
+
+article.case-study {
+  margin:40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float:left;
+  width:314px;
+  margin:40px 0 80px 0;
+}
+
+div.case-study-images img{
+  float:right;
+  width:606px;
+}
+
+div.case-study-images img{
+  margin-bottom:50px;
+  border:1px solid #dddddd;
